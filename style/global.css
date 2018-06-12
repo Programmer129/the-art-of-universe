@@ -187,6 +187,42 @@ footer {
     left: 73%;
 }
 
+.left-p-u {
+    border: 1px solid white;
+    position: absolute;
+    bottom: 75%;
+    color: white;
+    font-size: 40px;
+    left: 12%;
+}
+
+.right-p-u {
+    border: 1px solid white;
+    position: absolute;
+    bottom: 75%;
+    color: white;
+    font-size: 40px;
+    left: 65%;
+}
+
+.left-content-u {
+    position: absolute;
+    font-size: 20px;
+    bottom: 42%;
+    color: white;
+    width: 45%;
+    left: 3%;
+}
+
+.right-content-u {
+    position: absolute;
+    font-size: 20px;
+    bottom: 45%;
+    color: white;
+    width: 45%;
+    left: 55%;
+}
+
 footer {
     width: 90%;
 }
@@ -194,8 +230,6 @@ footer {
 footer p {
     text-align: center;
 }
-
-
 
 div.gallery {
     margin: 5px;
@@ -213,5 +247,7 @@ div.gallery img {
     height: 25%;
 }
 
-div.desc {
+div.universe-left {
+    float: left;
+    width: 50%;
 }
