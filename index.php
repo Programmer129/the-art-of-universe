@@ -1,9 +1,10 @@
 <!DOCTYPE>
 <html>
 <head>
-    <title>Food Art</title>
+    <title>Art of Universe</title>
     <link rel="stylesheet" href="style/global.css">
     <script src="js/app.js"></script>
+    <link rel="icon" href="../../img/venus.jpg">
 </head>
 <body class="index-body">
 <h1>The Art Of Universe</h1>
@@ -27,20 +28,3 @@
 </div>
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

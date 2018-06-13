@@ -160,6 +160,11 @@ footer {
     width: 33.33%;
 }
 
+.left-content img {
+    width:100%;
+    height: 80%
+}
+
 .left-p {
     border: 1px solid white;
     position: absolute;
@@ -250,4 +255,58 @@ div.gallery img {
 div.universe-left {
     float: left;
     width: 50%;
+}
+
+.astronauts-main {
+    width: 100%;
+    height: 80%;
+}
+
+.astronauts-p {
+    font-size: 20px;
+    border: 1px solid white;
+    position: absolute;
+    bottom: 22%;
+    right: 4%;
+    width: 70%;
+    height: 65%;
+    color: white;
+    border-collapse: separate;
+    border-spacing: 2px;
+}
+
+.astronauts-btn-next {
+    position: absolute;
+    bottom: 15%;
+    width: 10%;
+    right: 5%;
+}
+
+.astronauts-btn-prev {
+    position: absolute;
+    bottom: 15%;
+    width: 10%;
+    left: 5%;
+}
+
+.custom-li {
+    float: left;
+    font-size: 35px
+}
+
+#first img, #second img, #third img, #forth img {
+    width: 20%;
+    position: absolute;
+    bottom: 40%;
+    left: 4%;
+    border: 1px solid white
+}
+
+#second, #third, #forth, #second-u {
+    display: none;
+}
+
+.universe-left img {
+    width: 100%;
+    height: 70%
 }

@@ -4,6 +4,7 @@
     <title>Art Of Universe</title>
     <link rel="stylesheet" href="../../style/global.css">
     <script src="../../js/app.js"></script>
+    <link rel="icon" href="../../img/venus.jpg">
 </head>
 <body class="home-body">
 <header>
@@ -13,7 +14,7 @@
             <li><a href="universe.php">Universe</a></li>
             <li><a href="astronauts.php">Astronauts</a></li>
             <li><a href="home.php">Home</a></li>
-            <li style="float: left; font-size: 35px"><a href="home.php">C.Sagan</a></li>
+            <li class="custom-li"><a href="home.php">C.Sagan</a></li>
         </ul>
     </nav>
 </header>
@@ -21,7 +22,7 @@
 
     <div id="first-u">
         <div class="universe-left">
-            <img src="../../img/buuble.jpg" style="width: 100%; height: 70%">
+            <img src="../../img/buuble.jpg">
             <div>
                 <p class="left-p-u">Buuble Universe</p>
                 <p class="left-content-u">
@@ -38,7 +39,7 @@
             </div>
         </div>
         <div class="universe-left">
-            <img src="../../img/daughter.jpg" style="width: 100%; height: 70%">
+            <img src="../../img/daughter.jpg">
             <div>
                 <p class="right-p-u">Daughter Universe</p>
                 <p class="right-content-u">
@@ -55,9 +56,9 @@
         <button onclick="onFirstUniverse()">Next</button>
     </div>
 
-    <div id="second-u" style="display: none;">
+    <div id="second-u">
         <div class="universe-left">
-            <img src="../../img/infinite.jpg" style="width: 100%; height: 70%">
+            <img src="../../img/infinite.jpg">
             <div>
                 <p class="left-p-u">Infinite Universe</p>
                 <p class="left-content-u">
@@ -74,7 +75,7 @@
             </div>
         </div>
         <div class="universe-left">
-            <img src="../../img/parallel.jpg" style="width: 100%; height: 70%">
+            <img src="../../img/parallel.jpg">
             <div>
                 <p class="right-p-u">Parallel Universe</p>
                 <p class="right-content-u">

@@ -4,6 +4,7 @@
     <title>Art Of Universe</title>
     <link rel="stylesheet" href="../../style/global.css">
     <script src="../../js/app.js"></script>
+    <link rel="icon" href="../../img/venus.jpg">
 </head>
 <body class="home-body">
 <header>
@@ -13,7 +14,7 @@
             <li><a href="universe.php">Universe</a></li>
             <li><a href="astronauts.php">Astronauts</a></li>
             <li><a href="home.php">Home</a></li>
-            <li style="float: left; font-size: 35px"><a href="home.php">C.Sagan</a></li>
+            <li class="custom-li"><a href="home.php">C.Sagan</a></li>
         </ul>
     </nav>
 </header>
