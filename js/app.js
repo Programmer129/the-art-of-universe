@@ -1,14 +1,12 @@
-$("form :input").attr("autocomplete", "off");
-
 function onFirstPage() {
-    document.getElementById("second").style.display="none";
-    document.getElementById("first").style.display="block";
+    document.getElementById("s").style.display="none";
+    document.getElementById("f").style.display="block";
 }
 
 
 function onSecondPage() {
-    document.getElementById("first").style.display="none";
-    document.getElementById("second").style.display="block";
+    document.getElementById("f").style.display="none";
+    document.getElementById("s").style.display="block";
 }
 
 function onFirstUniverse() {

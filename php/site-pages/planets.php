@@ -5,11 +5,18 @@
     <link rel="stylesheet" href="../../style/global.css">
     <script src="../../js/app.js"></script>
     <link rel="icon" href="../../img/venus.jpg">
+    <?php
+    session_start();
+    if(!isset($_SESSION["id"])) {
+        header("Location: ../../index.php");
+    }
+    ?>
 </head>
 <body class="home-body">
 <header>
     <nav>
         <ul>
+            <li class="log-out"><a href="../../index.php">Log Out</a></li>
             <li><a class="active" href="planets.php">Planets</a></li>
             <li><a href="universe.php">Universe</a></li>
             <li><a href="astronauts.php">Astronauts</a></li>
@@ -19,7 +26,7 @@
     </nav>
 </header>
 <section>
-    <div id="first">
+    <div id="f">
         <div class="gallery">
             <a target="_blank" href="../../img/jupiter.jpg">
                 <img src="../../img/jupiter.jpg" alt="Fjords" width="300" height="200">
@@ -81,7 +88,7 @@
         </div>
         <button onclick="onSecondPage()">next</button>
     </div>
-    <div id="second" style="display: none;">
+    <div id="s" style="display: none;">
         <div class="gallery">
             <a target="_blank" href="../../img/earth.jpg">
                 <img src="../../img/earth.jpg" alt="Fjords" width="300" height="200">

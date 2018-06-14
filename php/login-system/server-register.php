@@ -13,7 +13,7 @@
     $query = "insert into `users` (`name`, `password`, `first_name`, `last_name`, `mail`)
         values ('$usrname','$pwd','$fname','$lname','$email')";
     if ($connect->query($query) == true) {
-        header('Location: ../index.php');
+        header('Location: ../../index.php');
     }
     $connect->commit();
     mysqli_close($connect);

@@ -7,6 +7,8 @@
     $result = $connect->query("select * from users");
     while ($row = $result->fetch_assoc()) {
         if ($row["name"] == $_POST["usrname"] && $row["password"] == $_POST["psw"]) {
+            session_start();
+            $_SESSION["id"] = $row["name"];
             header("Location: ../site-pages/home.php");
             $is_user = true;
             break;
