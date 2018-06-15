@@ -2,35 +2,6 @@
     box-sizing: border-box;
 }
 
-.index-body {
-    background-image: url("../img/10384.jpg");
-    position: fixed;
-    width: 100%;
-}
-
-.registration-body {
-    background-image: url("../img/10384.jpg");
-    position: fixed;
-    width: 100%;
-}
-
-.home-body {
-    position: fixed;
-    width: 90%;
-    right: 5%;
-    height: 700px;
-}
-
-a {
-    text-decoration: none;
-    list-style: none;
-    color: white;
-}
-
-a:hover {
-    background-color: #BFBA7F;
-}
-
 h1 {
     font-style: oblique;
     color: white;
@@ -47,77 +18,46 @@ h2 {
     text-align: center;
 }
 
-.log-in {
-    position: absolute;
-    left: 35%;
-    width: 30%;
-    border: 1px solid #ccc;
-}
-
-/* Full-width input fields */
-input[type=text], input[type=password] {
-    width: 100%;
-    padding: 15px;
-    margin: 5px 0 22px 0;
-    display: inline-block;
-    border: none;
-    background: #f1f1f1;
-}
-
-input[type=text]:focus, input[type=password]:focus {
-    background-color: #ddd;
-    outline: none;
-}
-
-hr {
-    border: 1px solid #f1f1f1;
-    margin-bottom: 25px;
-}
-
-/* Set a style for all buttons */
-button {
-    background-color: #4CAF50;
-    color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    cursor: pointer;
-    width: 100%;
-    opacity: 0.9;
-}
-
-button:hover {
-    opacity:1;
-}
-
-.cancelbtn {
-    padding: 14px 20px;
-    background-color: #f44336;
-}
-
-/* Float cancel and signup buttons and add an equal width */
-.cancelbtn, .signupbtn {
-    float: left;
-    width: 50%;
-}
-
-/* Add padding to container elements */
-.container {
-    height: 200px;
-    padding: 16px;
-}
-
-/* Clear floats */
-.clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
-}
-
+/* header and footer */
 header {
     margin-top: -8px;
 }
 
+footer {
+    position: fixed;
+    margin-bottom: 0;
+    bottom: 0;
+    width: 90%;
+}
+
+footer p {
+    text-align: center;
+}
+
+/* planets gallery */
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 19.1%;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: 25%;
+}
+
+/* universe gallery */
+div.universe-left {
+    float: left;
+    width: 50%;
+}
+
+/* navigation menu */
 nav {
     margin-top: 0;
     background-color: #EEEEED;
@@ -140,6 +80,16 @@ nav li {
     font-family: "Tibetan Machine Uni";
 }
 
+a {
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+
+a:hover {
+    background-color: #BFBA7F;
+}
+
 nav li a {
     text-decoration: none;
     color: black;
@@ -149,10 +99,71 @@ nav li a:hover {
     background-color: #BFBA7F;
 }
 
-footer {
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+button:hover {
+    opacity:1;
+}
+
+input {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: white;
+}
+
+.main-body {
+    background-image: url("../img/10384.jpg");
     position: fixed;
-    margin-bottom: 0;
-    bottom: 0;
+    width: 100%;
+}
+
+.home-body {
+    position: fixed;
+    width: 90%;
+    right: 5%;
+    height: 700px;
+}
+
+.log-in {
+    position: absolute;
+    left: 35%;
+    width: 30%;
+    border: 1px solid #ccc;
+}
+
+.cancelbtn {
+    padding: 14px 20px;
+    background-color: #f44336;
+}
+
+
+.cancelbtn, .signupbtn {
+    float: left;
+    width: 50%;
+}
+
+
+.container {
+    height: 200px;
+    padding: 16px;
 }
 
 .left-content {
@@ -226,35 +237,6 @@ footer {
     color: white;
     width: 45%;
     left: 55%;
-}
-
-footer {
-    width: 90%;
-}
-
-footer p {
-    text-align: center;
-}
-
-div.gallery {
-    margin: 5px;
-    border: 1px solid #ccc;
-    float: left;
-    width: 19.1%;
-}
-
-div.gallery:hover {
-    border: 1px solid #777;
-}
-
-div.gallery img {
-    width: 100%;
-    height: 25%;
-}
-
-div.universe-left {
-    float: left;
-    width: 50%;
 }
 
 .astronauts-main {

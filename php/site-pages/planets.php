@@ -28,7 +28,7 @@
 <section>
     <div id="f">
         <div class="gallery">
-            <a target="_blank" href="../../img/jupiter.jpg">
+            <a target="_blank" href="https://en.wikipedia.org/wiki/Jupiter">
                 <img src="../../img/jupiter.jpg" alt="Fjords" width="300" height="200">
             </a>
             <div class="desc">
@@ -40,7 +40,7 @@
         </div>
 
         <div class="gallery">
-            <a target="_blank" href="../../img/venus.jpg">
+            <a target="_blank" href="https://en.wikipedia.org/wiki/Venus">
                 <img src="../../img/venus.jpg" alt="Forest" width="300" height="200">
             </a>
             <div class="desc">
@@ -52,7 +52,7 @@
         </div>
 
         <div class="gallery">
-            <a target="_blank" href="../../img/mercury.jpg">
+            <a target="_blank" href="https://en.wikipedia.org/wiki/Mercury">
                 <img src="../../img/mercury.jpg" alt="Northern Lights" width="300" height="200">
             </a>
             <div class="desc">
@@ -64,7 +64,7 @@
         </div>
 
         <div class="gallery">
-            <a target="_blank" href="../../img/uranus.jpg">
+            <a target="_blank" href="https://en.wikipedia.org/wiki/Uranus">
                 <img src="../../img/uranus.jpg" alt="Mountains" width="300" height="200">
             </a>
             <div class="desc">
@@ -76,7 +76,7 @@
         </div>
 
         <div class="gallery">
-            <a target="_blank" href="../../img/mars.jpg">
+            <a target="_blank" href="https://en.wikipedia.org/wiki/Mars">
                 <img src="../../img/mars.jpg" alt="Mountains" width="300" height="200">
             </a>
             <div class="desc">
@@ -90,7 +90,7 @@
     </div>
     <div id="s" style="display: none;">
         <div class="gallery">
-            <a target="_blank" href="../../img/earth.jpg">
+            <a target="_blank" href="https://en.wikipedia.org/wiki/Earth">
                 <img src="../../img/earth.jpg" alt="Fjords" width="300" height="200">
             </a>
             <div class="desc">
@@ -101,11 +101,22 @@
             </div>
         </div>
         <div class="gallery">
-            <a target="_blank" href="../../img/saturn.jpg">
+            <a target="_blank" href="https://en.wikipedia.org/wiki/Saturn">
                 <img src="../../img/saturn.jpg" alt="Fjords" width="300" height="200">
             </a>
             <div class="desc">
                 <p>Name: Saturn</p>
+                <p>Diameter: 139,822 km</p>
+                <p>Distance from the sun: 778,340,821 km (5.20 AU)</p>
+                <p>Orbit period: 11.9 years</p>
+            </div>
+        </div>
+        <div class="gallery">
+            <a target="_blank" href="https://en.wikipedia.org/wiki/Saturn">
+                <img src="../../img/neptune.jpg" alt="Fjords" width="300" height="200">
+            </a>
+            <div class="desc">
+                <p>Name: Neptune</p>
                 <p>Diameter: 139,822 km</p>
                 <p>Distance from the sun: 778,340,821 km (5.20 AU)</p>
                 <p>Orbit period: 11.9 years</p>
